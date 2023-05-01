@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2023-05-01T11:59:41.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" version="21.2.3" etag="J3ChfHfRazxf0oSei3Ey" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-01T12:10:58.933Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/112.0" etag="F2I1w5ejXW8giXUIlok4" version="21.2.3" type="github">
   <diagram name="Page-1" id="BBZPUIFssXqw3VgDimFa">
-    <mxGraphModel>
+    <mxGraphModel dx="1010" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-1" value="Se desea recoger información sobre el programa de conciertos de música &#xa;clásica del auditorio nacional, con arreglo a las siguientes directivas:&lt;br&gt;- Una orquesta puede interpretar varios conciertos durante la temporada.&lt;br&gt;-&#xa; Como director titular de una orquesta figura una sola persona, pero &#xa;dicha orquesta puede contar con varios directores invitados.&lt;br&gt;- En un mismo concierto pueden interpretarse varias obras.&lt;br&gt;- Un mismo solista puede participar en varios conciertos al año, y en un concierto se puede contar con varios solistas.&lt;br&gt;- Cada obra es escrita por un sólo compositor.&lt;br&gt;- En una obra pueden participar varios solistas." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="10" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-2" value="ORQUESTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-3" value="CONCIERTO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-4" value="interpreta" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-4" target="0hfzCzHpPqjhgwwPmbgm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint x="390" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-3" target="0hfzCzHpPqjhgwwPmbgm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="380" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-7" value="director_titular" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="354" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-8" value="DIRECTORES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="410" as="sourcePoint" />
+            <mxPoint x="780" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-7" target="0hfzCzHpPqjhgwwPmbgm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="390" as="sourcePoint" />
+            <mxPoint x="910" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="384" />
+              <mxPoint x="880" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-11" value="OBRAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-12" value="SOLISTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-13" value="COMPOSITOR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-14" value="escribe" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-11" target="0hfzCzHpPqjhgwwPmbgm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="740" as="sourcePoint" />
+            <mxPoint x="350" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-14" target="0hfzCzHpPqjhgwwPmbgm-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="740" as="sourcePoint" />
+            <mxPoint x="500" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-17" value="temporada" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-17" target="0hfzCzHpPqjhgwwPmbgm-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="sourcePoint" />
+            <mxPoint x="240" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-19" value="dirige" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-2" target="0hfzCzHpPqjhgwwPmbgm-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="310" as="sourcePoint" />
+            <mxPoint x="620" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-21" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0hfzCzHpPqjhgwwPmbgm-19" target="0hfzCzHpPqjhgwwPmbgm-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="220" as="sourcePoint" />
+            <mxPoint x="720" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-22" value="(1,N)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="280" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-24" value="(1,N)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0hfzCzHpPqjhgwwPmbgm-25" value="N:N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
