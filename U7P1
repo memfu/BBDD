@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T05:16:00.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0" etag="eQ52ZdgjEH0X3YE3PUyR" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T05:16:18.820Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0" etag="aNH4LhaNQKr_3YbVTw3H" version="21.3.5" type="github">
   <diagram name="Page-1" id="r5SEWmK05ViKjRO-Vdzt">
     <mxGraphModel dx="1780" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="2FBjrW5yT0OrbpBY2NCS-9" value="nombre" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="640" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2FBjrW5yT0OrbpBY2NCS-10" value="poblacion" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="2FBjrW5yT0OrbpBY2NCS-10" value="población" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="640" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2FBjrW5yT0OrbpBY2NCS-11" value="dirección" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
